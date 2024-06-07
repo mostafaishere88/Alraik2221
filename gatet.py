@@ -87,7 +87,7 @@ def Tele(ccx):
 	        'input': {
 	            'creditCard': {
 	                'number': n,
-	                'expirationMonth': m,
+	                'expirationMonth': mm,
 	                'expirationYear': yy,
 	                'cvv': 'cvc',
 	                'billingAddress': {
