@@ -62,7 +62,7 @@ def Tele(ccx):
 	    'authority': 'payments.braintree-api.com',
 	    'accept': '*/*',
 	    'accept-language': 'ar-EG,ar;q=0.9,en-EG;q=0.8,en;q=0.7,en-US;q=0.6',
-	    'authorization': f'Bearer {au},
+	    'authorization': f'Bearer {au}',
 	    'braintree-version': '2018-05-10',
 	    'content-type': 'application/json',
 	    'origin': 'https://assets.braintreegateway.com',
