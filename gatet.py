@@ -108,7 +108,7 @@ hakemyeyyeyd%7C1718998649%7C2z2UsNAtn5cIk8ROLqm5ePQubiDLOFiRKZf5uXLL9zY%7Cc9dff9
 	}
 	
 	response = requests.post('https://payments.braintree-api.com/graphql', headers=headers, json=json_data)
-	
+	tok = response.json()['data']['tokenizeCreditCard']['token']	
 	# Note: json_data will not be serialized by requests
 	# exactly as it was in the original request.
 	#data = '{"clientSdkMetadata":{"source":"client","integration":"custom","sessionId":"2a71d842-464d-4e84-ae94-ba076412c744"},"query":"mutation TokenizeCreditCard($input: TokenizeCreditCardInput!) {   tokenizeCreditCard(input: $input) {     token     creditCard {       bin       brandCode       last4       cardholderName       expirationMonth      expirationYear      binData {         prepaid         healthcare         debit         durbinRegulated         commercial         payroll         issuingBank         countryOfIssuance         productId       }     }   } }","variables":{"input":{"creditCard":{"number":"4519932120833231","expirationMonth":"02","expirationYear":"2027","cvv":"924","billingAddress":{"postalCode":"10090","streetAddress":"New york"}},"options":{"validate":false}}},"operationName":"TokenizeCreditCard"}'
@@ -145,7 +145,7 @@ hakemyeyyeyd%7C1718998649%7C2z2UsNAtn5cIk8ROLqm5ePQubiDLOFiRKZf5uXLL9zY%7Cc9dff9
 	
 	data = {
 		'payment_method': 'braintree_cc',
-    'braintree_cc_nonce_key': 'tokencc_bh_grb5c4_q4pt23_f4t26s_s7zprg_ms6',
+    'braintree_cc_nonce_key': tok,
 		'braintree_cc_device_data': '{"device_session_id":"feefa91ef2f99dd200b51b05ff8eb952","fraud_merchant_id":null,"correlation_id":"3c5f9628c1ec40bd36e5845160734af1"}',
 	    'braintree_cc_3ds_nonce_key': 'tok',
 	    'braintree_cc_config_data': '{"environment":"production","clientApiUrl":"https://api.braintreegateway.com:443/merchants/88yh4wp5qmm383vy/client_api","assetsUrl":"https://assets.braintreegateway.com","analytics":{"url":"https://client-analytics.braintreegateway.com/88yh4wp5qmm383vy"},"merchantId":"88yh4wp5qmm383vy","venmo":"off","graphQL":{"url":"https://payments.braintree-api.com/graphql","features":["tokenize_credit_cards"]},"kount":{"kountMerchantId":null},"challenges":["cvv","postal_code"],"creditCards":{"supportedCardTypes":["MasterCard","Visa","Discover","JCB","American Express","UnionPay"]},"threeDSecureEnabled":false,"threeDSecure":null,"payWithVenmo":{"merchantId":"3184501200456253861","accessToken":"access_token$production$88yh4wp5qmm383vy$046fed997ac2817cff08e18b6195f802","environment":"production"},"paypalEnabled":true,"paypal":{"displayName":"Huntington Academy of Permanent Cosmetics","clientId":"AVSrt_PxsQbUo8i9Vf3OcqThKuBqMkQGg-hRLlnTHO9r55agBf5KosAkmqFdhrjvnX-iVNe6p3miaPmP","privacyUrl":null,"userAgreementUrl":null,"assetsUrl":"https://checkout.paypal.com","environment":"live","environmentNoNetwork":false,"unvettedMerchant":false,"braintreeClientId":"ARKrYRDh3AGXDzW7sO_3bSkq-U1C7HG_uWNC-z57LjYSDNUOSaOtIa9q6VpW","billingAgreementsEnabled":true,"merchantAccountId":"huntingtonacademyofpermanentcosmetics_instant","payeeEmail":null,"currencyIsoCode":"USD"}}',
