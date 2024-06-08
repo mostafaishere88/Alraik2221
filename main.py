@@ -319,7 +319,7 @@ def menu_callback(call):
 						ccnn+=1
 					else:
 						dd += 1
-					time.sleep(6)
+					time.sleep(20)
 		except Exception as e:
 			print(e)
 		stopuser[f'{id}']['status'] = 'start'
@@ -429,7 +429,7 @@ def menu_callback(call):
 						ccnn+=1
 					else:
 						dd += 1
-					time.sleep(6)
+					time.sleep(20)
 		except Exception as e:
 			print(e)
 		stopuser[f'{id}']['status'] = 'start'
