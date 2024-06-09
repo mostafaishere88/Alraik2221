@@ -17,9 +17,11 @@ def Tele(ccx):
 	with open('fileb3.txt', 'r') as file:
 		first_line = file.readline()
 	while True:
-		lines='''ididudud%7C1718387387%7CL8tz3iA1bxEqTxCNi3dh0CbrzjUQqW7zi2NvMAtmFP3%7Cd11ff6c87613d2e4c909e30b81ac62ec8e964cdb049019377b57379e0b9fa6ab
-gahjhjsshhshs%7C1718998398%7CM7b7hsa6963ZyNz18X7cpxzqIIooqSNg3053D0ufP09%7Ca7bac13c42de671ae1e11a16c6f16c3c9dba387428b50cd9e70872320d502979
-hakemyeyyeyd%7C1718998649%7C2z2UsNAtn5cIk8ROLqm5ePQubiDLOFiRKZf5uXLL9zY%7Cc9dff9930b7cd8aa562ca6efff8c1b1a084c3234148e79680221ed0b1a832943'''
+		lines='''bodymodyaj%7C1719152811%7CBHiQyVQ8REwBIISqWuxBUMHR6guN5LMVXUDmfzjPIQO%7Ca651a06e86a98267099ad20ac1d2d5ac7a8fcc9fafe072b7678ec626063999a6
+macxziw%7C1719152344%7Cec8vW5rfrhlKUc7kUIAv7Rt4bGNEyUevWxFy3P5dFIw%7Cdd8e958f4b07974d8eb3f00d52245e6234c341479dcc30a96c1772169cf355dd
+bsbsshhssj%7C1719152476%7Cz75jchavMXOpGzgxmaQm6JXC9BCJIdukE8pPGN7Tt24%7Cb5a4f2bea58f00c6fadc7d9f7908e068a8353d1c71b9730a1e3058dc1a24eb35
+fmost257111%7C1719153346%7CUbTltlMB4KXCsYfIghjeQauzQPLuNyg9OitGq7pWkvL%7C6e3d00621737a129c82c3da198e2cee7d982b4a41b206631816cc99b9a5c0d96
+modcajsilost%7C1719153886%7C7oqd3s1ky2N0jeyL24nF8JJB4SwelvHnlNj8Xy7coOM%7Cf40b52548c83b06f476c5e76ccbdfe3db64b31b2be564dbf1f2508221a3e39a5'''
 		lines = lines.strip().split('\n')
 		random_line_number = random.randint(0, len(lines) - 1)
 		big = lines[random_line_number]
