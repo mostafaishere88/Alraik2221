@@ -20,7 +20,7 @@ def Tele(ccx):
 	r.follow_redirects = True
 	r.verify = False
 
-	all_mail=['gdiehdehr@gmail.com','vdhdjdhwbdb@gmail.com','vdhdksvdbkcsbdbid@gmail.com','gshfvvagwy@gmail.com','bbbbbdudhkdgjd@gmail.com','hdgejfsgdjwvdiwv@gmail.com','gegfidvdjdhsefde@gmail.com','vrjehejdvddbsdgfds@gmail.com','dvdhdjjsjfjdbdjdbe@gmail.com','hdvdjdbshdbdhdddfs@gmail.com']
+	all_mail=['gdiehdehr@gmail.com','vdhdjdhwbdb@gmail.com','vdhdksvdbkcsbdbid@gmail.com','gshfvvagwy@gmail.com','bbbbbdudhkdgjd@gmail.com','hdgejfsgdjwvdiwv@gmail.com','gegfidvdjdhsefde@gmail.com','vrjehejdvddbsdgfds@gmail.com','dvdhdjjsjfjdbdjdbe@gmail.com','hdvdjdbshdbdhdddfs@gmail.com','dgdgdjdshdjegs@gmail.com','jdvdksvdnd@gmail.com','wvvccauwjf@gmail.com','shhdhevsgwd@gmail.com','jdvdksvshsysss@gmail.com','egsshegebsy@gmail.com','ssshgwqqi@gmail.com','swhwgdiwghdw@gmail.com','jegdishhds@gmail.com','wdhwgdjwgxs@gmail.com','hdvdidsveje@gmail.com','jsjshsjshsgdjdh@gmail.com','sjdhdbshsgdnshsghdhdg@hssgshsh.com','nsjsjskshdjdhdbsdgdv@gmail.com','whehddhbes@gmail.com','ssvdjshsvhds@gmail.com','sywhshsgyddw@gmail.com','whdhhssbdb@gmail.com','kshdksbdbdhs@gmail.com','hdvdjsvdjsvjdb@gmail.com','swwkkdwqd@gmail.com','jdhskdgsbvdqq@gmail.com','hehehehhqq@gmail.com']
 	mail=random.choice(all_mail)
 	with open('fileb3.txt','r') as file:
 			first=file.readline()
