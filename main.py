@@ -13,7 +13,7 @@ from multiprocessing import Process
 import threading
 from bs4 import BeautifulSoup
 stopuser = {}
-token = '7403548637:AAG8RdQOeszcN0QFL8plfVvO4o6faTXix9I'
+token = '6598331175:AAEElM2-nLb6WdILhpiWHAg5JeQAiolh7xc'
 bot=telebot.TeleBot(token,parse_mode="HTML")
 admin=1643196003 #ايدي الادمن بدون علامات تنصيص
 command_usage = {}
@@ -49,7 +49,7 @@ def start(message):
 			contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/i_292")
 			keyboard.add(contact_button)
 			random_number = random.randint(33, 82)
-			photo_url = f'https://t.me/bkddgfsa/{random_number}'
+			photo_url = f'https://t.me/Alraik_1/{random_number}'
 			bot.send_photo(chat_id=message.chat.id, photo=photo_url, caption=f'''<b>𝑯𝑬𝑳𝑳𝑶 {name}
 خطة الVIP تتيح لك استخدام كل الادوات والبوابات في البوت بلا حدود 
 يمكنك ايضا فحص البطاقات من خلال ملف 
@@ -74,7 +74,7 @@ def start(message):
 		keyboard.add(contact_button)
 		username = message.from_user.first_name
 		random_number = random.randint(33, 82)
-		photo_url = f'https://t.me/bkddgfsa/{random_number}'
+		photo_url = f'https://t.me/Alraik_1/{random_number}'
 		bot.send_photo(chat_id=message.chat.id, photo=photo_url, caption='''𝘾𝙡𝙞𝙘𝙠 /cmds 𝙏𝙤 𝙑𝙞𝙚𝙬 𝙏𝙝𝙚 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙊𝙧 𝙎𝙚𝙣𝙙 𝙏𝙝𝙚 𝙁𝙞𝙡𝙚 𝘼𝙣𝙙 𝙄 𝙒𝙞𝙡𝙡 𝘾𝙝𝙚𝙘𝙠 𝙄𝙩''',reply_markup=keyboard)
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
@@ -600,7 +600,7 @@ def respond_to_vbv(message):
 			del data[re]
 			with open('data.json', 'w') as json_file:
 				json.dump(data, json_file, ensure_ascii=False, indent=4)
-			msg=f'''<b>TOME VIP 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘𝗗 ✅
+			msg=f'''<b>Alraik VIP 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘𝗗 ✅
 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 𝗘𝗫𝗣𝗜𝗥𝗘𝗦 𝗜𝗡 ➜ {timer}
 𝗧𝗬𝗣 ➜ {typ}</b>'''
 			bot.reply_to(message,msg,parse_mode="HTML")
@@ -620,7 +620,7 @@ def start(message):
 			with open('data.json', 'r') as json_file:
 				existing_data = json.load(json_file)
 			characters = string.ascii_uppercase + string.digits
-			pas ='TOME-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))
+			pas ='Alraik-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))
 			current_time = datetime.now()
 			ig = current_time + timedelta(hours=h)
 			plan='𝗩𝗜𝗣'
